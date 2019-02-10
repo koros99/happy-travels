@@ -1,0 +1,35 @@
+@media screen and (min-width:560px){
+  /* .explore{
+    align-content: center;
+  } */
+}
+
+html{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://travelpassionate.com/wp-content/uploads/2017/08/Overlooking-the-beautiful-beach-at-Anthony-Quinn-Bay-Rhodes-Greece-Europe-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100%;
+}
+.welcome{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 15em;
+  color:white;
+}
+.explore{
+  /* margin-left: 43%; */
+  text-align: center;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 1.5em;
+}
+.explore a{
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 2em;
+  /* border: 0.15em solid white; */
+  font-weight: 400px;
+}
+.explore a:hover{
+  color: black;
+  background-color: white;
+}

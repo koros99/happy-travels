@@ -1,0 +1,88 @@
+/* @media screen and (min-width:560px){
+  .contents h1{
+    font-size: 2em;
+  }
+  nav ul{
+    display: block;
+  }
+} */
+
+html{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height:100%; */
+}
+
+.contents{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 6em;
+  /* position: fixed; */
+  top:0;
+}
+
+.contents h1{
+  font-size: 3em;
+  float:left;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  text-transform: uppercase;
+}
+
+nav ul{
+  text-align: right;
+  margin-top:0;
+}
+
+nav ul li{
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 3em;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 2px solid white;
+  transition: 1s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+
+/* .trop{
+  margin-top: 10em;
+} */
+
+.trop h2, .pop h2{
+  clear:both;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  text-decoration: underline;
+}
+
+.tropical, .popular{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  color: white;
+}
+
+.one, .two{
+  padding:0.5em;
+  /* align-content: center; */
+}
+
+.one h3, .two h3{
+  text-align: center;
+}
+
+img{
+  height:20em;
+  width:23em;
+}
